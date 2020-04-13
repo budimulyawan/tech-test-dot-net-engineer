@@ -3,14 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechChallenge.WebApi", "TechChallenge.WebApi\TechChallenge.WebApi.csproj", "{EF0B278A-8036-477A-B81E-8A93D97E395E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A945BEB6-8405-4DEF-A30E-EABE4B7BD206}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{045D58C1-A9A4-47CC-BD8C-F82A16FB920A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.Domain.Tradie", "src\Hipages.Domain.Tradie\Hipages.Domain.Tradie.csproj", "{5BD76EED-0C5E-4940-9C5F-A84EBD554AAE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{76E37894-86CD-4BAD-8485-602572E3C906}"
-	ProjectSection(SolutionItems) = preProject
-		docker\mysql\init.sql = docker\mysql\init.sql
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.Application.Tradie", "src\Hipages.Application.Tradie\Hipages.Application.Tradie.csproj", "{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.WebApi.Tradie", "src\Hipages.WebApi.Tradie\Hipages.WebApi.Tradie.csproj", "{3C0446D6-4831-4580-AC6C-DD8D26500F3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BDCB4B7C-8154-4E42-8413-4C54CF866F69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.Infrastructure.Tradie", "src\Hipages.Infrastructure.Tradie\Hipages.Infrastructure.Tradie.csproj", "{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,17 +21,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EF0B278A-8036-477A-B81E-8A93D97E395E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF0B278A-8036-477A-B81E-8A93D97E395E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF0B278A-8036-477A-B81E-8A93D97E395E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF0B278A-8036-477A-B81E-8A93D97E395E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{045D58C1-A9A4-47CC-BD8C-F82A16FB920A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{045D58C1-A9A4-47CC-BD8C-F82A16FB920A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{045D58C1-A9A4-47CC-BD8C-F82A16FB920A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{045D58C1-A9A4-47CC-BD8C-F82A16FB920A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD76EED-0C5E-4940-9C5F-A84EBD554AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD76EED-0C5E-4940-9C5F-A84EBD554AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD76EED-0C5E-4940-9C5F-A84EBD554AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD76EED-0C5E-4940-9C5F-A84EBD554AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0446D6-4831-4580-AC6C-DD8D26500F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0446D6-4831-4580-AC6C-DD8D26500F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0446D6-4831-4580-AC6C-DD8D26500F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0446D6-4831-4580-AC6C-DD8D26500F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BD76EED-0C5E-4940-9C5F-A84EBD554AAE} = {A945BEB6-8405-4DEF-A30E-EABE4B7BD206}
+		{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7} = {A945BEB6-8405-4DEF-A30E-EABE4B7BD206}
+		{3C0446D6-4831-4580-AC6C-DD8D26500F3C} = {A945BEB6-8405-4DEF-A30E-EABE4B7BD206}
+		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1} = {A945BEB6-8405-4DEF-A30E-EABE4B7BD206}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1AD6459C-6669-4945-A96E-BBB69500087A}
