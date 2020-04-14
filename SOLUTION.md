@@ -16,3 +16,4 @@ Your Solution Documentation
 3. UI: Add tests
 4. Dockerize the solution.
 
+### Note: do not run using docker as it is not completed
