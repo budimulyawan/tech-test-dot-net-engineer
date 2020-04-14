@@ -9,6 +9,7 @@ namespace Hipages.Application.Tradie.AcceptedJobs.Queries.GetAcceptedJobs
 {
     public class AcceptedJobDto : IMapFrom<Job>
     {
+        public int Id { get; set; }
         public string SuburbName { get; set; }
         public string SuburbPostCode { get; set; }
 
@@ -17,6 +18,12 @@ namespace Hipages.Application.Tradie.AcceptedJobs.Queries.GetAcceptedJobs
         public string ContactFirstName { get; set; }
 
         public decimal Price { get; set; }
+
+        public string ContactLastName { get; set; }
+
+        public string ContactPhone { get; set; }
+
+        public string ContactEmail { get; set; }
 
         public decimal? DiscountAmount { get; set; }
         public string Description { get; set; }

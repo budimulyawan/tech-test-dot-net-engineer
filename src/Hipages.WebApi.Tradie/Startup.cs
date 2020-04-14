@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-
+using Microsoft.AspNetCore.Cors.Infrastructure;
 namespace Hipages.WebApi.Tradie
 {
     public class Startup
@@ -42,6 +42,12 @@ namespace Hipages.WebApi.Tradie
             }
 
             app.UseHttpsRedirection();
+            app.UseCors(options =>
+            {
+                options.AllowAnyOrigin();
+                options.AllowAnyMethod();
+                options.AllowAnyHeader();
+            });
 
             app.UseRouting();
 

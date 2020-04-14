@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.Domain.Tradie", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.Application.Tradie", "src\Hipages.Application.Tradie\Hipages.Application.Tradie.csproj", "{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.WebApi.Tradie", "src\Hipages.WebApi.Tradie\Hipages.WebApi.Tradie.csproj", "{3C0446D6-4831-4580-AC6C-DD8D26500F3C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BDCB4B7C-8154-4E42-8413-4C54CF866F69}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.Infrastructure.Tradie", "src\Hipages.Infrastructure.Tradie\Hipages.Infrastructure.Tradie.csproj", "{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.WebApi.Tradie", "src\Hipages.WebApi.Tradie\Hipages.WebApi.Tradie.csproj", "{027DCF9E-07C8-499E-A25B-29CBCAA08309}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{977D84A7-7A9F-4451-AAAF-1CAA5A14C023}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hipages.Application.Tradie.Integration.Tests", "tests\Hipages.Application.Tradie.Integration.Tests\Hipages.Application.Tradie.Integration.Tests.csproj", "{BA01F05E-3C9E-48C5-8DD4-3FE527B81CFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +31,18 @@ Global
 		{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C0446D6-4831-4580-AC6C-DD8D26500F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C0446D6-4831-4580-AC6C-DD8D26500F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C0446D6-4831-4580-AC6C-DD8D26500F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C0446D6-4831-4580-AC6C-DD8D26500F3C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027DCF9E-07C8-499E-A25B-29CBCAA08309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027DCF9E-07C8-499E-A25B-29CBCAA08309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027DCF9E-07C8-499E-A25B-29CBCAA08309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027DCF9E-07C8-499E-A25B-29CBCAA08309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA01F05E-3C9E-48C5-8DD4-3FE527B81CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA01F05E-3C9E-48C5-8DD4-3FE527B81CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA01F05E-3C9E-48C5-8DD4-3FE527B81CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA01F05E-3C9E-48C5-8DD4-3FE527B81CFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,8 +50,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5BD76EED-0C5E-4940-9C5F-A84EBD554AAE} = {A945BEB6-8405-4DEF-A30E-EABE4B7BD206}
 		{9CC4FFF0-EC61-4D51-9802-97C266D9DEE7} = {A945BEB6-8405-4DEF-A30E-EABE4B7BD206}
-		{3C0446D6-4831-4580-AC6C-DD8D26500F3C} = {A945BEB6-8405-4DEF-A30E-EABE4B7BD206}
 		{13FB8911-A5D0-43C3-AF8D-A47BDE93CEE1} = {A945BEB6-8405-4DEF-A30E-EABE4B7BD206}
+		{027DCF9E-07C8-499E-A25B-29CBCAA08309} = {A945BEB6-8405-4DEF-A30E-EABE4B7BD206}
+		{BA01F05E-3C9E-48C5-8DD4-3FE527B81CFE} = {977D84A7-7A9F-4451-AAAF-1CAA5A14C023}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1AD6459C-6669-4945-A96E-BBB69500087A}

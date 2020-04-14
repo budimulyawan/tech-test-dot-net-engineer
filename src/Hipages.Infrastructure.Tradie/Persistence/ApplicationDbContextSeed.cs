@@ -54,7 +54,7 @@ namespace Hipages.Infrastructure.Tradie.Persistence
                     ContactEmail = "luke@mailinator.com",
                     ContactFirstName = "Luke",
                     ContactLastName = "Skywalker",
-                    ContactPhone = "0412345678",
+                    ContactPhone = "0412345677",
                     Price = 20,
                     Description = "Integer aliquam pulvinar odio et convallis. Integer id tristique ex.",
                     Suburb = suburbs[0],
@@ -64,10 +64,10 @@ namespace Hipages.Infrastructure.Tradie.Persistence
                 var job2 = new Job()
                 {
                     Category = categories[1],
-                    ContactEmail = "luke@mailinator.com",
-                    ContactFirstName = "Luke",
-                    ContactLastName = "Skywalker",
-                    ContactPhone = "0412345678",
+                    ContactEmail = "han@mailinator.com",
+                    ContactFirstName = "Han",
+                    ContactLastName = "Solo",
+                    ContactPhone = "0411145678",
                     Price = 2000,
                     Description = "Integer aliquam pulvinar odio et convallis. Integer id tristique ex.",
                     Suburb = suburbs[1],
@@ -76,10 +76,10 @@ namespace Hipages.Infrastructure.Tradie.Persistence
                 var job3 = new Job()
                 {
                     Category = categories[2],
-                    ContactEmail = "luke@mailinator.com",
-                    ContactFirstName = "Luke",
-                    ContactLastName = "Skywalker",
-                    ContactPhone = "0412345678",
+                    ContactEmail = "Kobe@mailinator.com",
+                    ContactFirstName = "Kobe",
+                    ContactLastName = "Bryant",
+                    ContactPhone = "0412335678",
                     Price = 30,
                     Description = "Integer aliquam pulvinar odio et convallis. Integer id tristique ex.",
                     Suburb = suburbs[2],
@@ -88,10 +88,10 @@ namespace Hipages.Infrastructure.Tradie.Persistence
                 var job4 = new Job()
                 {
                     Category = categories[3],
-                    ContactEmail = "luke@mailinator.com",
-                    ContactFirstName = "Luke",
-                    ContactLastName = "Skywalker",
-                    ContactPhone = "0412345678",
+                    ContactEmail = "adam@mailinator.com",
+                    ContactFirstName = "Adam",
+                    ContactLastName = "Johnson",
+                    ContactPhone = "0488888888",
                     Price = 200,
                     Description = "Integer aliquam pulvinar odio et convallis. Integer id tristique ex.",
                     Suburb = suburbs[3],
@@ -100,10 +100,10 @@ namespace Hipages.Infrastructure.Tradie.Persistence
                 var job5 = new Job()
                 {
                     Category = categories[4],
-                    ContactEmail = "luke@mailinator.com",
-                    ContactFirstName = "Luke",
-                    ContactLastName = "Skywalker",
-                    ContactPhone = "0412345678",
+                    ContactEmail = "Smith@mailinator.com",
+                    ContactFirstName = "Smith",
+                    ContactLastName = "Chris",
+                    ContactPhone = "0411234378",
                     Price = 20,
                     Description = "Integer aliquam pulvinar odio et convallis. Integer id tristique ex.",
                     Suburb = suburbs[4],

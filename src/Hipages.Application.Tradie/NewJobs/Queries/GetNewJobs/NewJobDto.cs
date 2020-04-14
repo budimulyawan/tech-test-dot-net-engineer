@@ -9,6 +9,7 @@ namespace Hipages.Application.Tradie.NewJobs.Queries.GetNewJobs
 {
     public class NewJobDto : IMapFrom<Job>
     {
+        public int Id { get; set; }
         public string SuburbName { get; set; }
         public string SuburbPostCode { get; set; }
 

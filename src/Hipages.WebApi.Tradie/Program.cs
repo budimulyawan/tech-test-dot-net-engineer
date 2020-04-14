@@ -27,6 +27,7 @@ namespace Hipages.WebApi.Tradie
 
                     if (context.Database.IsMySql())
                     {
+                        context.Database.EnsureDeleted();
                         context.Database.Migrate();
                     }
 
