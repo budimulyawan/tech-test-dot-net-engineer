@@ -12,7 +12,7 @@ Your Solution Documentation
 
 #### TODO (due to limited time, especially on UI part)
 1. API: Add more unit and integration testing
-2. UI: Create more component on UI to share between pages. 
+2. UI: Create more component on UI to share between pages, UI/UX skin color of hipages, iconize card
 3. UI: Add tests
 4. Dockerize the solution.
 
